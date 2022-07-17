@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack Station</title>
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+  <nav>
+    <h3 class="text-center">The FeedBack Station</h3>
+  </nav>
+    <main class="form-signin  m-auto">
+      <form action="https://send.pageclip.co/xDKBzgWLv1y090ZvOCr62eK1g8m6h0Xn" class="pageclip-form form-signin w-100 m-auto" method="post">
+        <h1 class="h3 mb-3 fw-normal text-center">Please sign in</h1>
+    
+        <div class="form-floating">
+          <input type="text" name='Name' class="form-control" id="floatName" placeholder="name@example.com">
+          <label for="floatName">Full Name</label>
+        </div>
+        <div class="form-floating">
+          <input type="email" name='email' class="form-control" id="floatingEmail" placeholder="Password">
+          <label for="floatingEmail">Email</label>
+        </div>
+        <div class="form-floating">
+          <input type="text" name='location' class="form-control" id="floatingLocation" placeholder="Password">
+          <label for="floatingLocation">Location</label>
+        </div> 
+        <!-- <div class="form-floating"> -->
+          <label for=""></label>
+          <textarea name="feedback" class="form-control" id="editor" placeholder="Type your feedback here"></textarea>
+        <!-- </div> -->
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" name='remember_me'> Remember me
+          </label>
+        </div>
+
+        <button class="w-100 btn btn-lg btn-warning pageclip-form__submit" type="submit">Sign in</button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
+      </form>
+    </main>
+
+    <script src="./static/js/bootstrap.min.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+    <script src="./static/js/script.js"></script>
+</body>
+</html>

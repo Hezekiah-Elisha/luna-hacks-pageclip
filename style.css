@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(255, 100, 100);
+}
+form{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    margin: 20px;
+}
+nav h3{
+    background-color: rgb(194, 56, 56) !important;
+}
